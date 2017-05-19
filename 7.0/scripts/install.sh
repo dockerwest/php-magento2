@@ -7,7 +7,7 @@ apt-get update
 
 apt-get install -y \
     php7.0-gd php7.0-common php7.0-intl php7.0-mbstring php7.0-mcrypt \
-    php7.0-mysql php7.0-readline php7.0-soap php7.0-xsl
+    php7.0-mysql php7.0-readline php7.0-soap php7.0-xsl php7.0-bcmath
 
 apt-get clean -y
 

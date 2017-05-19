@@ -7,7 +7,7 @@ apt-get update
 
 apt-get install -y \
     php5.6-gd php5.6-common php5.6-intl php5.6-mbstring php5.6-mcrypt \
-    php5.6-mysql php5.6-readline php5.6-soap php5.6-xsl
+    php5.6-mysql php5.6-readline php5.6-soap php5.6-xsl php5.6-bcmath
 
 apt-get clean -y
 
