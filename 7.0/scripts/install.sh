@@ -11,6 +11,10 @@ apt-get install -y \
 
 apt-get clean -y
 
+# magento needs a bit more memory than 256M
+sed -e 's/^\(memory_limit\).*/\1 = 1024M/' \
+    -i /etc/php/7.0/mods-available/custom.ini
+
 sed -e 's/\(max_nesting_level\).*/\1=1000/' \
     -i /etc/php/7.0/mods-available/xdebug.ini
 
