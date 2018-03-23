@@ -5,9 +5,7 @@ set -e
 # install packages
 apt-get update
 
-apt-get install -y \
-    php7.1-gd php7.1-common php7.1-intl php7.1-mbstring php7.1-mcrypt \
-    php7.1-mysql php7.1-readline php7.1-soap php7.1-xsl php7.1-bcmath
+extensions -i bcmath gd intl mbstring mcrypt mysql readline soap xsl
 
 apt-get clean -y
 
