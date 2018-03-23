@@ -3,6 +3,14 @@ PHP image for magento2
 
 PHP container for magento2 applications. Magento2 is not installed in the Image.
 
+Environment variables
+---------------------
+
+The basic environment variables can be found in the [PHP baseimage
+README](https://github.com/dockerwest/php/blob/master/README.md).
+
+> Currently there are no additional environment variables
+
 Versions
 --------
 
