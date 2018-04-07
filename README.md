@@ -15,13 +15,10 @@ Versions
 --------
 
 The following versions are available:
-- 5.6 : supported until 31 Dec 2018
-- 7.0 : supported until 31 Dec 2018
-- 7.1 : supported until 1 Dec 2019
-- 7.2 : alpha release
-
-NOTE: Magento2 officially only supports 5.6 and 7.0. The 7.1 and the 7.2 images
-are provided for testing purposes.
+- 5.6 : supported until 31 Dec 2018 (Magento 2.0)
+- 7.0 : supported until 3 Dec 2018 (Magento 2.1, Magento 2.2)
+- 7.1 : supported until 1 Dec 2019 (Magento 2.1, Magento 2.2, Magento 2.3)
+- 7.2 : supported until 30 Nov 2020 (Magento 2.3)
 
 License
 -------
