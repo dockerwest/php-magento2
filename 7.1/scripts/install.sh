@@ -17,5 +17,5 @@ sed -e 's/\(max_nesting_level\).*/\1=1000/' \
     -i /etc/php/7.1/mods-available/xdebug.ini
 
 # install magerun
-curl -o /usr/local/bin/magerun https://files.magerun.net/n98-magerun2-latest.phar
+curl -sS -o /usr/local/bin/magerun https://files.magerun.net/n98-magerun2.phar
 chmod +x /usr/local/bin/magerun
