@@ -5,7 +5,7 @@ set -e
 # install packages
 apt-get update
 
-extensions -i bcmath gd intl mbstring mcrypt mysql readline redis soap xsl
+extensions -i bcmath gd intl mbstring mcrypt mysql readline redis soap xsl amqp
 
 apt-get clean -y
 
