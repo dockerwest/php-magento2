@@ -19,6 +19,8 @@ The following versions are available:
 - 7.0 : supported until 3 Dec 2018 (Magento 2.1, Magento 2.2)
 - 7.1 : supported until 1 Dec 2019 (Magento 2.1, Magento 2.2, Magento 2.3)
 - 7.2 : supported until 30 Nov 2020 (Magento 2.3)
+- 7.3 : supported until 6 Dec 2021 (Magento 2.3)
+- 7.4 : supported until 28 Nov 2022 (Magento-dev?)
 
 License
 -------
